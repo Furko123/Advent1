@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Output
+comment1.params=s\ TA
+comment1.target=void\ println(java.lang.String,\ javax.swing.JTextArea)
+numComments=2

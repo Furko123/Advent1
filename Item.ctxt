@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Item
+comment1.params=n\ t\ p\ w
+comment1.target=Item(java.lang.String,\ java.lang.String,\ int,\ int)
+comment10.params=obj
+comment10.target=boolean\ equals(java.lang.Object)
+comment2.params=n
+comment2.target=Item(java.lang.String)
+comment3.params=n\ t\ p\ w\ a
+comment3.target=Item(java.lang.String,\ java.lang.String,\ int,\ int,\ int)
+comment4.params=a
+comment4.target=void\ changeAmount(int)
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment6.params=
+comment6.target=java.lang.String\ getType()
+comment7.params=
+comment7.target=int\ getPower()
+comment8.params=
+comment8.target=int\ getAmount()
+comment9.params=
+comment9.target=int\ getWert()
+numComments=11

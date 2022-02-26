@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Kampf
+comment1.params=M
+comment1.target=void\ kampf(Mob)
+comment2.params=M
+comment2.target=boolean\ missionKampf(Mob)
+comment3.params=b\ dif\ type
+comment3.target=double\ Kampfmechanik(int,\ java.lang.String,\ java.lang.String)
+comment4.params=
+comment4.target=void\ startStopWatch()
+comment5.params=
+comment5.target=int\ stopStopWatch()
+comment6.params=
+comment6.target=int\ convertInputStringToInt()
+numComments=7

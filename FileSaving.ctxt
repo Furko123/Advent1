@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=FileSaving
+comment1.params=DateiName\ objects
+comment1.target=void\ save(java.lang.String,\ java.lang.Object[])
+comment2.params=DateiName\ laenge
+comment2.target=java.lang.Object[]\ load(java.lang.String,\ int)
+comment3.params=DateiName
+comment3.target=boolean\ WorldsaveExists(java.lang.String)
+comment4.params=
+comment4.target=boolean\ saveIsEmpty()
+numComments=5

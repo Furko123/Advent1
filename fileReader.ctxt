@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=fileReader
+comment1.params=
+comment1.target=fileReader()
+comment2.params=section\ number\ fileSize
+comment2.target=java.lang.String\ readLine(java.lang.String,\ java.lang.String,\ int)
+comment3.params=section\ s\ fileSize
+comment3.target=boolean\ containsString(java.lang.String,\ java.lang.String,\ int)
+numComments=4

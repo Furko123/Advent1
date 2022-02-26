@@ -1,0 +1,600 @@
+System:0 Herzlich Willkommen zu deinem Adventure.
+System:1 Drücke Enter um fortzufahren.
+System:2 Willst du ein neues oder altes Spiel laden?
+System:3 Wie soll die neue Welt heißen?
+System:4 Wie heißt die alte Welt?
+System:5 Neue Welt wird geladen...
+System:6 Alte Welt wird geladen...
+System:7 Welt wurde erfolgreich gespeichert.
+System:8 Welt wurde erfolgreich geladen.
+
+---------------------------------------------------------------------------------------------------
+
+Fehler:0 Name darf nur aus Buchstaben bestehen und ohne Leerzeichen sein.
+Fehler:1 Sorry, das ist kein gültiger Befehl.
+Fehler:2 Diese Welt gibt es nicht. Überprüfe ob alles richtig geschrieben ist.
+
+---------------------------------------------------------------------------------------------------
+
+Inventar:0 Item ist nicht im Inventar.
+Inventar:1 Du rüstest das Item aus.
+Inventar:2 Du benutzt das Item. 
+
+---------------------------------------------------------------------------------------------------
+
+Movement:1 Du bist an der rechten Grenze der Welt.
+Movement:2 Du bist an der linken Grenze der Welt.
+Movement:3 Du bist an der oberen Grenze der Welt.
+Movement:4 Du bist an der unteren Grenze der Welt.
+Movement:5 Du gehst Richtung Norden.
+Movement:6 Du gehst Richtung Osten.
+Movement:7 Du gehst Richtung Süden.
+Movement:8 Du gehst Richtung Westen.
+
+---------------------------------------------------------------------------------------------------
+
+Help:1 Schreibe 'show stats' um deine Ausrüstung anzuschauen.
+Help:2 Schreibe 'gehe' plus eine Richtung um in diese Richtung zu gehen.
+Help:3 Schreibe 'umschauen' um deine Umgebung genauer zu betrachten.
+Help:4 Schreibe 'act' um mit der Welt zu interagieren.
+Help:5 Schreibe 'use' um Items zu benutzen/auszurüsten.
+Help:6 Schreibe 'aufheben' um Items aufheben.
+Help:7 Schreibe 'mission' um deine aktuelle Mission zu sehen.
+Help:8 Schreibe 'speicher' um zu speichern.
+Help:9 Schreibe 'exit' um das Spiel zu beenden.
+Help:10 All diese Befehle sind in vielen Variationen möglich.
+Help:11 Probier es einfach aus!
+
+---------------------------------------------------------------------------------------------------
+
+
+Kampf:0 Ein Monster stellt sich dir in dein Weg!
+Kampf:1 Du befindest dich jetzt im Kampfmodus.
+Kampf:2 Du kannst jetzt nur angreifen verteidigen oder bestimmte Items nutzen.
+Kampf:4 ...Oder du versuchst dein Glück und fliehst in eine der umgebenden Ortschaften.
+Kampf:5 Willst du ihn bekämpfen?
+Kampf:6 Du holst zum Angriff aus.
+Kampf:7 Willst du einen leichten, mittleren oder schweren Schlag riskieren?
+Kampf:8 Das Monster holt zum Angriff aus.
+Kampf:9 Willst du seinen Angriff mit einem leichten, mittleren oder schweren Manöver blocken?
+Kampf:10 Im Kampf mit Fernkampfwaffen und -rüstungen musst du die Unaufmerksamkeit des Gegners ausnutzen.
+Kampf:11 Lenke den Gegner gezielt mit einem Ausruf ab, um deinen Schlag oder Block erfolgreich auszuführen.
+Kampf:12 Im Kampf mit Nahkampfwaffen und -rüstungen musst jeder Schritt gut kalkuliert sein.
+Kampf:13 Berechne deinen nächsten Schlag oder Block, um ihn erfolgreich auszuführen.
+Kampf:14 Aber Achtung: beeile dich!
+Kampf:15 Du hast deinen Schritt falsch berechnet. 
+Kampf:16 Du warst zu langsam. Das Monster hat schon reagiert. 
+Kampf:17 Du laberst irgendein Stuss und das Monster ist unbeeindruckt.
+Kampf:18 Ein gut durchrechneter Schritt! Du führst den Schritt erfolgreich aus.
+Kampf:19 Welch linguistisches Meisterstück! Dass Monster ist so beeindruckt, dass es dich machen lässt.
+Kampf:20 Du hast das Monster besiegt!
+Kampf:21 Das Monster hat dich besiegt!
+Kampf:22 Du bist entkommen!
+Kampf:23 So was Schönes hat dein Gegner noch nie gehört. Das Monster liegt tränend am Boden in einem Zustand der Euphorie.
+
+
+Leicht:0 Farn
+Leicht:1 Magier
+Leicht:2 Wolke
+Leicht:3 Lagerfeuer
+Leicht:4 Elfe
+
+
+Mittel:0 verzaubertes Schwert
+Mittel:1 lieblings Helden
+Mittel:2 magie Student
+Mittel:3 intelligenz Bestie
+Mittel:4 schlauer Fuchs
+
+
+Schwer:0 Desoxyribonucleinsäure
+Schwer:1 Si mon tonton tond ton tonton, ton tonton sera tondu.
+Schwer:2 Sowwy, das ist kein gültiger Befehl! Uwu
+Schwer:3 Aufmerksamkeitsdefizit-Hyperaktivitätsstörung
+Schwer:4 Furkan
+
+Anfang-----------------------------------------------------------------------------------------
+
+Einleitung:0 Ich wache auf.
+Einleitung:1 Ich bin müde.
+Einleitung:2 Ich bin verwirrt.
+Einleitung:3 .  .  .
+Einleitung:4 Wo bin ich hier?
+
+---------------------------------------------------------------------------------------------------
+
+DialogM:1 Sehr gut!
+DialogM:2 Okay, dann:
+DialogM:3 Tu mir einen Gefallen. 
+DialogM:4 Pass auf!
+DialogM:5 Dies ist deine neue Mission.
+
+Mission:1 Kaufe das Holzschwert beim Schmied!
+Mission:2 Benutze das Holzschwert!
+Mission:3 Verkaufe den alten Stock im Laden!
+Mission:4 Geh in die Taverne!
+    Mission:400 Ein alter Mann tritt auf dich zu und beäugt dich misstrauisch.
+    Mission:401 "Kannst du mir einen Gefallen tun?", fragt er. Bevor du antworten kannst redet er schon weiter.
+    Mission:402 "Mein Haustier ist verschwunden! Bring es mir wieder und ich werde dich für deine Mühen entlohnen!"
+    Mission:403 "Ach ja, mein Haustier ist ein roter Papagei. Ich glaube er ist nach Südwesten geflogen."
+Mission:5 Finde den Papagei!
+    Mission:500 Das muss der Vogel sein von dem der alte Mann gesprochen hat! Vorsichtig trittst du näher.
+    Mission:501 Der Papagei öffnet seinen Schnabel und krächzt: "Ein Schatz, ein Schatz!". Du stoppst.
+    Mission:502 "Was? Was für ein Schatz?". "Im Sumpf, im Sumpf!", antwortet der Vogel.
+    Mission:503 Heute muss dein Glückstag sein!
+Mission:6 Finde den Schatz!
+    Mission:600 Du gräbst und buddelst. Stunden vergehen und der Tag neigt sich dem Ende zu. 
+    Mission:601 Plötzlich stößt deine Schaufel auf etwas Hartes. Aufgeregt hebst du eine alte Holztruhe aus dem Loch.
+    Mission:602 Du stößt den morschen Holzdeckel auf und lässt das funkelnde Gold durch deine Hände gleiten. Woah!
+    Mission:603 Ein perfekter Tag! Mit dem Papagei auf der Schulter stehst du auf und machst dich wieder zur Taverne auf.
+Mission:7 Besiege den alten Mann!
+    Mission:700 "Ah da bist du ja wieder!", begrüßt dich der alte Mann. Ohne dich eines weiteren Blickes zu würdigen, schnappt er sich den Vogel. "So jetzt zu dir! Wo ist der Schatz vergraben?!".
+    Mission:701 "Er hat ihn, er hat ihn!", antwortet der Vogel. "WAS?!", ruft er aus. Wütend funkelt er dich an. "Das wirst du bereuen!", und er stürzt sich auf dich.
+    Mission:702 "Warte.", murmelt der alte Mann. "Gehe in die Kirche und rede mit dem Priester dort. Er wird dir weiterhelfen!"
+    Mission:703 "Und du hattest Recht, der Schatz ist rechtmäßig deiner. Ich sehe meinen Fehler ein." Erschöpft sinkt er zusammen.
+Mission:8 Rede mit dem Priester in der Kirche!
+    Mission:800 Ein großer dünner Mann tritt auf dich zu. Er ist völlig in schwarz gekleidet und ist kahl geschoren.
+    Mission:801 "Ah, da bist du ja!", begrüßt er dich. "Ein Krieger Gottes vom Himmel, wie in der Prophezeiung vorhergesehen!"
+    Mission:802 Er muss deinen verwirrten Blick gesehen haben, geht jedoch nicht weiter auf seine Aussage ein.
+    Mission:803 Stattdessen drückt er dir einen Beutel voll Geld in die Hand und sagt: "Hier, deine Belohnung wenn die Ungläubigen in der Wüste auslöschst!"
+Mission:9 Finde das Dorf in der Wüste!
+    Mission:900 Welche Ungläubigen der Priester auch immer meinte, hier wohnt ganz sicher niemand mehr.
+    Mission:901 Du wanderst zwischen den verlassenen Häusern hindurch und blickst dich verwundert um. Plötzlich sticht dir ein Haus ins Auge, dass verdächtig sandfrei ist.
+    Mission:902 Du trittst ein. Auf einem steinernen Tisch liegt ein vergilbtes Pergament. Abgebildet ist eine Karte der Wüste.
+    Mission:903 Nicht unweit vom Dorf ist ein Grabmal eingezeichnet, direkt daneben ein Totenkopf. Wenn hier schon nichts ist, ob sich dann zumindest im Grab Reichtümer finden lassen?
+Mission:10 Finde das Grabmal!
+    Mission:1000 Plötzlich verdunkelt sich der Himmel und du hörst unheimliche Geräusche. Eine verrottete Hand bricht vor dir durch den Sand.
+    Mission:1001 Eine uralte Mumie, übersäht mit Hieroglyphen, steht langsam auf und streckt ihre Arme nach dir aus. Ein Finger fällt ab. 
+    Mission:1002 Während die Mumie zu Staub zerfällt gönnst du dir eine Pause. Das war knapp. Du wischt den Sand beiseite und schaust dir deinen wohlverdienten Schatz an.
+    Mission:1003 Goldmünzen, Ketten, das alles hast du schon gesehen. Doch das hier, das ist wirklich interessant. Ein Schlüssel in Pyramidenform. Wo der wohl reinpasst?
+Mission:11 Öffne die Pyramide!
+    Mission:1100 Der Schlüssel gleitet problemlos in die pyramidenförmige Aussparung die du vorhin entdeckt hast. Es rumpelt kurz und einer der tonnenschweren Quader schiebt sich zur Seite.
+    Mission:1101 Du betrittst einen dunklen Gang und gehst weiter in die Pyramide hinein. Die Luft wird muffig. Und plötzlich: die Grabkammer!
+    Mission:1102 Du erblickst unfassbare Reichtümer so weit das Auge - und das Licht deiner Fackel - reicht. Was nicht besonders weit ist. Ein besonders großer Edelstein scheint dich anzulächeln.
+    Mission:1103 Du ergreifst den Stein - und die Decke fängt an zu wackeln. Du sprintest zum Ausgang und erreichst diesen noch gerade so, bevor der Gang hinter dir einstürzt.
+Mission:12 Finde die Pandas!
+    Mission:1196 Für diese Mission will der Bürgermeister persönlich mit dir sprechen. Im Wartezimmer tritt er auf dich zu. "Pass auf...", grunzt er.
+    Mission:1197 "Diese Mission ist äußerst wichtig für die Leute im Dorf. Und damit auch für meine Wiederwahl! Merk dir das gefälligst!"
+    Mission:1198 "Alle Pandas in der Umgebung verschwinden seit einiger Zeit nach und nach. Mir könnten die Biester ja nicht egaler sein aber..."
+    Mission:1199 "Deshalb tu mir einen Gefallen! Finde die letzten Pandas und beschütze sie!"
+    Mission:1200 Zahlreiche Pandas kugeln an dir vorbei, knallen gegen die Bambusstäbe und gucken sich verdutzt um.
+    Mission:1201 Vorsichtig näherst du dich den süßen Fellknäueln um sie zu streicheln, doch bei deinem Anblick erschrecken sie und starren dich angsterfüllt an.
+    Mission:1202 Als du deinen aus orange-schwarz gestreiften Mantel anguckst wird dir auch klar warum - und wer für den Rückgang der Pandapopulation verantwortlich ist.
+Mission:13 Besiege den Tiger!
+    Mission:1300 Ein markerschütterndes Knurren lässt dich erzittern. Ein massiver Tiger bricht aus dem Unterholz hervor und stürzt sich auf dich.
+    Mission:1302 Verzweifelt kämpfst du dich unter dem Tiger hervor, denn auch dessen Leiche kann dir immer noch gefährlich sein. 
+    Mission:1303 Das hunderte Kilogramm schwere Tier droht deinen Brustkorb einzuquetschen. Kopfschüttelnd betrachtest du Krallenspuren auf deinem Arm, die während des Kampfes entstanden sind.   
+Mission:14 Gehe zum Schmied!
+    Mission:1400 Der bärtige Schmied tritt auf dich zu und wischt sich Ruß aus dem Gesicht. "Ey, du! Ich hab gehört du kriegst Aufträge immer erledigt?"
+    Mission:1401 "Pass auf: für meine neue Generation an Waffen brauche ich einen ganz besonderen Stein. Er ist schwarz und nur in der Nähe des Vulkans aufzufinden."
+    Mission:1402 "Hier erhälst du meine Stahlspitzhacke um den Stein heraushauen zu können! Als Belohnung erhälst du ein brandneues Obsidian-Schwert!"
+Mission:15 Finde die Obsidianhügel und bringe Obsidian zurück!
+    Mission:1500 WAMM! Mit voller Wucht lässt du die Spitzhacke auf den tiefschwarzen Stein niederschmettern. Ein kleiner Steinsplitter löst sich aus dem Untergrund.
+    Mission:1501 Das wird eine Arbeit werden!
+Mission:16 Bringe die Fragmente zum Schmied!
+    Mission:1600 "Ah da bist du ja wieder! Warum so verschwitzt? HA HA HA HA! Ein kleiner Scherz, ich weiß doch wie anstrengend diese Arbeit ist!"
+    Mission:1601 Der Schmied nimmt die Obsidian-Fragmente und verschwindet tief hinten in die Schmiede. Einige Zeit vergeht.
+    Mission:1602 Der Schmied kommt wieder und überreicht dir feierlich eine rasiermesserscharfes, tiefschwarzes Schwert.
+Mission:17 Gehe zum Laden!
+    Mission:1699 Der Bürgermeister tritt abermals auf dich zu. "Du weißt nicht was du mit dir anfangen sollst? Geh in den Laden, dort lernst du immer etwas interessantes!"
+    Mission:1700 Die Glocke klingelt hell beim Eintreten. Ein kleiner, grauhaariger Mann tritt flink auf dich zu. "Der Bürgermeister muss dich schicken!"
+    Mission:1701 Der Ladenbesitzer hört nicht auf zu reden, plappert aber vor allem wirres Zeug. Mit einem Mal wirst du hellhörig.
+    Mission:1702 "... ich kannte mal eine Frau, eine Hexe viel eher, die konnte dir jeden Zaubertrank unter der Sonne zusammenbrauen... Hey, wo gehst du denn hin?!"
+    Mission:1703 Doch du hast den Laden schon verlassen, mit nur einem Ziel vor Augen.
+Mission:18 Finde das Hexenhaus!
+    Mission:1800 Das Haus ist schief, das Holz morsch und von Moos bewachsen. Ein rötliches Leuchten dringt aus dem Inneren hervor.
+    Mission:1801 Du bückst dich und trittst ein. Grüner Dampf steigt von einem eisernen Kessel auf. Dir wird schummrig.
+    Mission:1802 Eine schwarz gekleidete Frau sitzt gebeugt über alten Büchern. Etwas an ihr lässt dich erschauern. Ohne dich eines Blickes zu würdigen, sagt sie:
+    Mission:1803 "Ich weiß was du begehrst... Auf dem Tisch neben mir findest du eine Liste an Zutaten die ich benötige, falls ich dir den Trank brauen soll!"
+Mission:19 Bekämpfe den Drachen!
+    Mission:1900 Blutrote Wolken bedecken den Himmel. Ein ohrenbetäubender Schrei hallt über die Landschaft. Die Luft wird spürbar heißer.
+    Mission:1901 Ein gewaltiger Drache durchstößt die Wolkendecke und fliegt zu dir herab.
+    Mission:1902 Du blickst auf die Liste der Hexe. Eine Drachenschuppe? Selbst dein scharfes Schwert hatte Schwierigkeiten, dem Drachen mehr als einen Kratzer zuzufügen. Puh...
+Mission:20 Finde den verglasten Sand!
+    Mission:2000 Du hebst einen besonders großen Klumpen aus reinem Glas auf. Er muss in unvorstellbaren Feuern geformt worden sein.
+Mission:21 Finde die Pflanze des Lebens!
+    Mission:2100 Ein einzelner Tropfen grün inmitten einem Meer aus Feuer. Wie kann sich Leben hier halten?
+    Mission:2101 Vorsichtig berührst du die Pflanze. Energie durchströmt dich und alle Wunden und Schnitte an deinem Körper verschwinden.
+    Mission:2102 Du schneidest ganz behutsam ein kleines Blatt von der Pflanze ab um sie nicht zu beschädigen.
+    Mission:2103 Jetzt fehlt nur noch die letzte Zutat!
+Mission:22 Finde die Pilze!
+    Mission:2200 Am Fuß des Stumpfes wachsen silbrige Pilze. Du stellst fest, dass das sonst noch warme Holz hier eisig kalt ist.
+    Mission:2201 Mit deinem Messer schneidest du einige besonders große Exemplare ab und steckst sie in deinen Beutel.
+    Mission:2202 Jetzt hast du alles! Auf zur Hexe!
+Mission:23 Bringe die Zutaten zur Hexe
+    Mission:2300 Die Hexe erwartet dich schon. "Tritt ein, tritt ein!" Ruft sie schon von weitem.
+    Mission:2301 Fast gierig reißt sie dir deinen Beutel aus der Hand und durchwühlt in ungefragt. Sie schnappt sich die Drachenschuppe und steckt sie ein.
+    Mission:2302 Sie entspannt sich spürbar. "Mein Lohn für meine Arbeit", ruft sie dir zwinkernd zu. Sie wirft alle Zutaten in ihren Kessel welche daraufhin anfängt grell zu Leuchten.
+    Mission:2303 Nach einigen Minuten füllt sie ein kleines Glasfläschen mit dem Zaubertrank ab und überreicht in dir. "Dies ist der Zaubertrank der Heilung. Benutze ihn nur im äußersten Notfall!"
+    Mission:2304 "Ach übrigens... falls du noch nach einer weiteren Aufgabe suchst, finde die verlassene Hütte. Nur ein Tipp..."
+Mission:24 Finde den Zettel in der verlassenen Hütte!
+    Mission:2400 Spinnenweben hängen an den Balken, Fledermäuse von der Decke. Hier wohnt niemand mehr.
+    Mission:2401 In der Mitte des Raumes steht ein Tisch. Auf ihm liegt - bedeckt von einer dicken Staubschicht - ein Zettel.
+    Mission:2402 Du hebst ihn auf und liest: "Wir sind die Sandmenschen. Vertrieben aus unserer Heimat, der Wüste ist dieser Zettel unsere letzte Hoffnung!"
+    Mission:2403 "Du Fremder, der du das liest, finde die Oase und räche uns!"
+Mission:25 Finde die Oase!
+    Mission:2500 Endlich! Du füllst deine Wasservorräte neu auf und machst es dir im Schatten der grünen Palmen gemütlich.
+    Mission:2501 Deine Augen werden schwer und du gönnst dir eine wohlverdiente Pause. Den Zettel der Sandmenschen hast du schon wieder vergessen. 
+    Mission:2502 Mit einem Mal schreckst du auf. Ein gigantisches Wesen bahnt sich seinen Weg an dir vorbei durch den Sand. Der Wasserstand der Oase sinkt deutlich.
+    Mission:2503 Jetzt wird dir klar, warum die Menschen hier fliehen mussten. Ein uraltes Ungeheuer verbreitet hier Angst und Schrecken.
+Mission:26 Bekämpfe den Sandwurm!
+    Mission:2600 Du sinkst knietief in den vibrierenden Sand ein, der dich jetzt nicht mehr trägt.
+    Mission:2601 Ein Sandwurm gleitet unter dir vorbei, bricht aus dem Sand hervor und starrt dich mit hasserfüllten Augen an!
+    Mission:2602 Endlich erliegt der Sandwurm seinen zahlreichen Wunden. Die Wüste ist rot von seinem Blut. Ein goldenes Schimmern fällt dir ins Auge.
+    Mission:2603 Das Schimmern entstammt dem Sandwurm selbst. Du zerhackst seinen Körper und hält schließlich eine sonderbare, faustgroße Perle in der Hand.
+Mission:27 Bringe die Perle zum Schmied!
+    Mission:2700 "Woah! Eine Sandwurm-Perle? Wie hast du die denn aufgetrieben?!" Du zeigst nur stumm auf dein blutdurchtränktes Schwert.
+    Mission:2701 Der Schmied schaut dich bewundernd an. "Eine Heldentat! Hier, lass mich dir zeigen was diese Perlen so besonders macht!" Er nimmt die Perle und hält sie an ein Kettenhemd.
+    Mission:2702 Die Oberfläche der Kugel verzieht sich und strömt in Wellen über das - nun goldene - Kettenhemd. Der Schmied überreicht es dir feierlich und erklärt:
+    Mission:2703 "Solche Perlen haben besondere, magische Eigenschaften! Dieses Kettenhemd wird dir bestimmt noch einmal sehr nützlich werden!"
+Mission:28 Finde die Leiche!
+    Mission:2798 Der Bürgermeister kommt auf dich zu. Er guckt besorgt. "Hey! Ein wichtiges Mitglied meines Rates ist nun seit mehreren Wochen verschwunden und wurde zuletzt in der Nähe des Sumpfes gesehen!"
+    Mission:2799 "Leider überlebt dort nie lange jemand... Es ist für seine Angehörigen von äußerster Wichtigkeit ihn bei uns auf dem Friedhof begraben zu können... Du weißt was du zu tun hast..."
+    Mission:2800 Du guckst genauer hin. Schmutzige Knochen ragen aus einer schleimigen Masse heraus. Und ist das... Kleidung?!
+    Mission:2801 Eine menschlicher Schädel starrt dich an. Voller Entsetzen stellst du fest, dass es sich um eine modernde Leiche handelt! Das wird das Ratsmitglied sein, von dem der Bürgermeister gesprochen hat.
+    Mission:2802 Du wirst wütend. Dieser Mensch muss von einem Monster hier im Sumpf ermordet worden sein. Du wirst ihn rächen!
+Mission:29 Bekämpfe das Seemonster!
+    Mission:2900 In der Mitte des Wassers steigen Blasen auf und zerplatzen mit einem lauten PLOP. Etwas streift die Wasseroberfläche.
+    Mission:2901 Mit einem Mal explodiert der See und ein nasser, schleimiger Tentakel schießt auf dich zu und packt dich am Bein. Das Monster des Sees!
+    Mission:2902 Verzweifelt schwimmst du nach oben, weg von der Leiche des Seemonsters, auf das Tageslicht hinzu. Dir wird schwarz vor Augen.
+    Mission:2903 Gerade noch rechtzeitig erreichst du die Oberfläche. Ein tiefer Atemzug hat sich noch nie so gut angefühlt. Angewiedert 
+Mission:30 Bekämpfe das Schleimmonster!
+    Mission:3000 Ein tiefes Summen füllt deine Ohren. Die Dunkelheit, sie ruft nach dir. Mit einem Mal hörst du ein schmatzendes Geräusch.
+    Mission:3001 Ein schleimiges, giftgrünes Wesen wälzt aus der Höhle heraus und schleudert eine eklige grüne Substanz auf dich.
+    Mission:3002 Das Monster zerfließt zu einer Pfütze aus grünem Schleim und du rutscht fast aus. Igitt!
+    Mission:3003 Egal! Du hast das Ratsmitglied gerächt. Dieser Sumpf ist nun frei von Monstern! Nun musst du die Leiche nur noch auf dem Friedhof begraben...
+Mission:31 Bring die Leiche zum Friedhof!
+    Mission:3100 Du betrittst den Friedhof. Es ist dunkel und klamm. Typisch Friedhof, eben... Du wanderst durch hohes Gras zwischen den Gräbern hindurch.
+    Mission:3101 Bei dem Familiengrab des Mannes stoppst du. Zahlreiche Menschen haben sich bereits versammelt um dem Verstorbenen ihren Respekt zu zollen.
+    Mission:3102 Ohne ein Wort zu verlieren lädst du die Leiche in den Sarg ab. Du nickst dem Bürgermeister zu und drehst wieder um.
+Mission:32 Löse das Rätsel der Sphinx!
+    Mission:3198 "Danke dir noch einmal für das Finden meines Freundes!", der Bürgermeister schüttet dir überschwänglich die Hand.
+    Mission:3199 "Ich habe bereits eine weitere Aufgabe für dich! Finde die Sphinx und löse ihr Rätsel! Sie wird dir weiterhelfen..."
+    Mission:3200 Der Kopf der Sphinx dreht sich und wendet sich dir zu. Ihre Stimme donnert über dich hinweg. "Löse dieses Rätsel und ich werde dir helfen!"
+    Mission:3201 "Der Schrein ohne Deckel, Schlüssel, Scharnier birgt einen goldenen Schatz, glaub es mir!" "Was ist die Lösung?
+    Mission:3202 "Das ist korrekt.", die Sphinx starrt dich an: "Du wunderst dich über deine Herkunft... ich kann dir Antworten verschaffen."
+    Mission:3203 "Finde den steinernen Tempel der Azteken, sie werden dir weiterhelfen. Aber Vorsicht, sie mögen keine Fremden!"
+Mission:33 Finde den Tempel der Azteken und besiege sie!
+    Mission:3300 Du trittst die steinernen Stufen empor. An deiner Seite rinnt ein Bach aus Blut herab. Du erschauderst. Du kommst oben an und überblickst den Urwald um dich herum.
+    Mission:3301 Mit einem Mal treten zahlreiche Azteken aus dem Tempel hervor und haben dich schnell umringt. Mit einem wilden Kampfesschrei stürzen sie sich auf dich.
+    Mission:3302 Du wachst aus deinem Kampfesrausch auf, umgeben von toten Azteken und Blut. Du schnappst dir einen Überlebenden. Er winselt angsterfüllt um Gnade.
+    Mission:3303 "Stopp, stopp! Ich sag dir alles was du wissen willst! ... deine Herkunft? ... Okay, okay ist ja gut!"
+    Mission:3304 "Vor einigen Tagen ist ein Stern abgestürzt. Er ist hier am Himmel vorbeigezogen und hat große Teile des Urwalds verwüstet. Er ist nach Norden geflogen, ganz nach Norden."
+    Mission:3305 "Dort, im äußersten Norden, liegt die Arktis. Der Zugang ist durch eine gigantische Mauer aus Eis versperrt, die undurchdringlich ist."
+    Mission:3306 "Unser bester Wissenschaftler...", er zeigt nach hinten auf eine der Leichen, "hat überlegt, dass die Mauer bei einem Vulkanausbruch schmelzen würde..."
+    Mission:3307 "Hier hast du einen Sack Schwarzpulver. Wirf es in den Vulkan... und renn um dein Leben!"
+Mission:34 Bring den Vulkan zum Explodieren!
+    Mission:3400 Du erklimmst den Vulkan - ein mühsames Unterfangen. Oben angekommen ziehst du den Schwarzpulver-Sack hervor. 
+    Mission:3401 Du zögerst kurz und wirfst den Sack in den Krater des Vulkans. Er fängt sofort Feuer. Du fängst an zu rennen.
+    Mission:3402 Hinter dir hörst du ein gewaltiges Krachen. Der Vulkan ist explodiert und schleudert Steine, Asche und Lava hunderte Meter in die Luft. 
+    Mission:3403 Die Schockwelle erfasst dich und trägt dich den Berg hinunter. Dir wird kurz schwarz vor Augen. Du schüttelst dich und marschierst zur Eismauer.
+Mission:35 Gehe in die Arktis!
+    Mission:3501 Dort angekommen stellst du fest, dass die Azteken tatsächlich die Wahrheit gesagt haben. Die vom Vulkan ausgelöste Druck- und Hitzewelle hat ein gigantisches Loch in die Eismauer geschlagen.
+    Mission:3502 Vorsichtig trittst du in diese völlig neue Welt - als erste Person seit Ewigkeiten. Durch die Mauer abgeschirmt herrscht hier ein völlig anderes Klima. Du ziehst deinen Mantel zusammen und stapfst weiter.
+Mission:36 Erkunde die Arktis!
+    Mission:3600 Was zur Hölle ist das?! Unter dem Eis und Schnee liegt etwas, dass völlig anders aussieht, als alles was du bisher gesehen hast. Und doch kommt es dir merkwürdig bekannt vor. 
+    Mission:3601 Das muss der Stern sein, von dem die Azteken geredet haben. Nur handelt es sich natürlich nicht um einen tatsächlichen Stern, sondern um ein Raumschiff. 
+    Mission:3602 Beim Eintritt in die Atmosphäre muss es angefangen haben zu glühen und sah so einem abstürzenden Stern ähnlich. Woher weißt du so etwas überhaupt?
+    Mission:3603 Unter großer Anstrengung kratzt du den Eingang von Eis frei und willst eintreten. Stattdessen blinkt eine rote Fehlermeldung auf. 
+    Mission:3604 Beim Absturz muss das Raumschiff zahlreiche Teile verloren haben! Deshalb funktioniert es nicht. Du weißt was du zu tun hast...
+Mission:37 Finde das Raumschiffteil im Sumpf!
+    Mission:3700 Du stößt die Schaufel tief in den Schlamm und fängst an zu graben. Das unnatürliche Leuchten wird immer stärker. 
+    Mission:3701 KLIRR! Endlich! Du greifst nach der hellblauen Kugel und fühlst wie ihre Energie dich durchströmt. Das muss die Energiequelle des Raumschiffs sein!
+Mission:38 Finde das Raumschiffteil im Vulkan!
+    Mission:3800 Du ziehst den Trank der Schwerelosigkeit hervor und entfernst den Korken mit einem lauten PLOPP. Du schüttest die helle Flüssigkeit vorsichtig über die Metallplatte.
+    Mission:3801 Du spürst wie das Raumschiffteil spürbar leichter wird und hebst es auf. Es ist aber so schwer, dass es dich immer noch einige Energie kostet. Es muss sich um ein Hitzeschild handeln!
+Mission:39 Finde das Raumschiffteil im Urwald!
+    Mission:3900 Du streifst dir das goldene Kettenhemd über, von dem der Schmied dir erzählt hat, dass es dir einmal sehr nützlich sein würde.
+    Mission:3901 Die Metallkugel pulsiert erneut. Du merkst wie sich die Gravitation kurz umkehrt, doch ansonsten geschieht dir nichts. Du hast den Anti-Gravitations-Antrieb des Schiffes gefunden!
+Mission:40 Finde das Raumschiffteil in der Wüste!
+    Mission:4000 Du ziehst die Schutzhandschuhe, die du genau für diesen Fall gekauft hast. Vorsichtig greifst du nach der beschriebenen Platte, darauf bedacht nicht erneut einen Stromschlag zu erhalten.
+    Mission:4001 Es klappt! Du kannst das Metall problemlos anfassen und in deinen - mittlerweile ziemlich vollen - Rucksack packen. Bei genauerem Hingucken merkst du, dass es sich um Koordinatensysteme handeln muss.
+Mission:41 Bekämpfe das Monster der Arktis!
+    Mission:4100 Du trittst auf etwas unerwartet Weiches. Mit einem Mal erhebt sich der Boden und du fällst um. Ein riesiger, mindestens fünf Meter hoher Yeti steht brüllend auf.
+    Mission:4101 Die leuchtend gelben Augen mustern dich aufmerksam, das zottige weiße Fell ist blutverschmiert. Der Yeti zeigt seine spitzen Zähne und stürmt auf dich zu.
+    Mission:4102 Du ziehst dein Schwert aus der Brust des Yetis und wischt das Blut ab. Du humpelst ein wenig, die gewaltigen Krallen haben dich am Bein erwischt.
+    Mission:4103 Ungeachtet dessen ziehst du weiter, nur ein Ziel im Kopf: das Raumschiff reparieren und herausfinden, was du damit zu tun hast.
+Mission:42 Repariere das Raumschiff!
+
+Outro:0 Als du das letzte Teil eingesetzt hast, fängt das Raumschiff an sich hochzufahren. Es summt, das Eis schmilzt und es schwebt vor dir. 
+Outro:1 Die Tür gleitet mit einem Zischen auf. Du trittst ein. Innen ist es wohlig warm und bequem. Durch ein großes Fenster kannst du nach außen sehen.
+Outro:2 Plötzlich aktiviert sich hinter dir ein Hologramm. Ein Mann fängt an zu sprechen:
+Outro:3 "Hallo Commander! Willkommen zurück auf der 'Infinity'!"
+Outro:4 "Ich sehe, Sie haben ihre Bruchlandung vor einigen Tagen wohl überstanden!"
+Outro:5 Mit einem Mal überfluten dich Erinnerungen. Du kommst nicht von diesem Planeten, technisch gesehen zumindest nicht.
+Outro:6 In deiner Welt hat sich die Technologie auf der Erde immer weiter entwickelt. So weit, dass Wissenschaftler irgendwann auf die Existenz von Paralleluniversen aufmerksam wurden.
+Outro:7 Die Menschheit entsandte hunderte solcher Raumschiffe, ausgestattet mit der Fähigkeit zwischen Dimensionen zu springen, mit dem Ziel das Universum zu erkunden.
+Outro:8 Offensichtlich ging bei deinem Sprung in diese Dimension irgendetwas schief und du hast deine Erinnerungen verloren. Naja, hattest verloren.
+Outro:9 Interessant. In diesem Universum sind Magie und Monster keine Seltenheit. Und trotzdem haben es die Menschen geschafft zu Überleben. Erstaunlich.
+Outro:10 Und doch: nach zahlreichen Kämpfen tut dir alles weh. Ein paar Mal wärst du sogar fast gestorben. Du hast erst einmal genug von dieser Welt.
+Outro:11 Du gibst die Koordinaten deiner Welt in den Computer ein und das Raumschiff fliegt in den Orbit. Du hörst wie sich der Antrieb auflädt.
+Outro:12 Vielleicht wirst du diese Welt ja ein weiteres Mal besuchen. Doch während das Raumschiff zwischen den Dimensionen springt hast du nur ein Ziel vor Augen: Heimat!
+
+
+Grenze-----------------------------------------------------------------------------------------
+
+Grenze:2 Hier ist die Eisschicht zu dünn um dich zu tragen.
+Grenze:5 Hier ist der Sumpf zu tief um weitergehen zu können.
+Grenze:6 Eine dicke Eismauer versperrt dir den Weg.
+Grenze:7 Ein Lavasee? Hier geht es nicht weiter.
+Grenze:9 Die Baumstämme stehen zu dicht. Hier kommst du niemals durch.
+Grenze:11 Im dichten Morgennebel siehst du Hand vor Augen nicht. Dreh besser um.
+Grenze:13 Hier ist der Urwald zu dicht um ihn durchgehen zu können.
+Grenze:14 Löwen patrollieren dieses Gebiet. Hier solltest du nicht weiterlaufen. 
+Grenze:15 Wassermangel zwingt dich zur Umkehr.
+
+Markt----------------------------------------------------------------------------------------------
+
+1005:0 Du bist in einem Weizenfeld.
+1005:1 Der Weizen wiegt sanft in einer leichten Brise.
+1005:2 Alles um dich herum schimmert golden.
+1005:3
+1005:4
+
+1006:0 Du trittst in die Schmiede ein.
+1006:1 Ein Hitzeschwall kommt dir entgegen und du musst dich abwenden.
+1006:2 Es ist dunkel, stickig und riecht nach Schweiß. Weit hinten hörst du rhythmische, dumpfe Schläge. 
+1006:3 Die Geräusche stoppen. Du betrachtest die funkelnden Schwerter, Schilder und Rüstungen an der Wand.
+1006:4 Ein großer, bärtiger, verrußter Mann tritt dir entgegen. Er hält einen Hammer in der Hand. 
+    1006:5 Schmied: "Willst du was kaufen?"
+    1006:6 Schmied: "Hör auf zu nuscheln!"
+    1006:7 Schmied: "Raus hier!"
+    1006:8 Schmied: "Das kann ich dir nicht geben!"
+    1006:9 Schmied: "Pah. Das ist viel zu wenig Geld!"
+    1006:10 Schmied: "Ok. Wir haben einen Deal."
+    1006:11 Schmied: "Ich verkaufe diese Gegenstände hier" 
+    1006:12 Schmied: "Welchen Gegenstand willst du kaufen?" 
+
+1007:0 Du befindest dich auf einem Friedhof, doch du siehst keine Gräber.
+1007:1 Stattdessen blickst du auf einen riesigen Obelisk. Er ist tiefschwarz und glatt.
+1007:2 Einen kleine Tafel befindet sich vor dir. Auf ihr steht schlicht: "DER TAG".
+1007:3 Du guckst hinauf und siehst schier endlose Reihen von Namen die sich um den Stein winden - zu viele um sie zu zählen...
+1007:4 Du wunderst dich: "Was ist hier wohl passiert?"
+
+1009:0 Die Tür knarzt und du trittst in die Taverne ein. Sie ist gut besucht. 
+1009:1 Es ist laut. Die Leute lachen, reden oder singen zur Musik. An den Steinwänden flackern Kerzen.
+1009:2 Du bahnst dir einen Weg durch die zahlreiche Tische und lässt dich auf einen Stuhl fallen.
+1009:3 Es riecht nach Essen und Wein. Dir läuft das Wasser im Mund zusammen.
+1009:4 Eine junge Frau schenkt den Gästen Bier nach. Sie sieht dich und kommt auf dich zu.
+
+1010:0 Du bist auf einem vollen Marktplatz.
+1010:1 Um dich herum wimmelt es vor Leben.
+1010:2 Menschen eilen an dir vorbei.
+1010:3 All die verschiedenen Gerüche, Farben und Geräusche überwältigen dich fast.
+1010:4 Du bist umgeben von allerlei verschiedenen Gebäuden.
+
+1011:0 Du betrittst den Laden und eine Glocke klingelt. 
+1011:1 Du gehst an zahlreichen gut befüllten Regalen vorbei, voller exotischer Gegenstände die du noch nie gesehen hast.
+1011:2 Hier gibt es diverse Zaubertränke, dort liegen weitere magische Artefakte. Du fällst fast über einen Stapel verstaubter Bücher.
+1011:3 Es raschelt hinter der Theke. Ein alter Mann mit weißem Bart richtet sich auf. Sein Blick fällt auf dich.
+1011:4 Er beäugt dich misstrauisch, doch dann erblickt er den Geldbeutel an deinem Gürtel und den Sack über deinem Rücken.
+    1011:5 Ladenbesitzer: "Willst du was kaufen?"
+    1011:6 Ladenbesitzer: "Tut mir leid mein Freund ich habe dich nicht ganz verstanden."
+    1011:7 Ladenbesitzer: "Bitte gehe nun."
+    1011:8 Ladenbesitzer: "Das kann ich dir leider nicht geben!"
+    1011:9 Ladenbesitzer: "Die Größe deines Geldbeutels reicht leider nicht."
+    1011:10 Ladenbesitzer: "Das war doch ein profitabler Kauf."
+    1011:11 Ladenbesitzer: "Ich verkaufe diese Gegenstände hier" 
+    1011:12 Ladenbesitzer: "Welchen Gegenstand willst du kaufen?"
+
+    1011:13 Ladenbesitzer: "Na hast du Sachen die du Verkaufen möchtest ?"
+    1011:14 Ladenbesitzer: "Tut mir leid mein Freund ich habe dich nicht ganz verstanden."
+    1011:15 Ladenbesitzer: "Na dann bis zum nächsten Mal."
+    1011:16 Ladenbesitzer: "Mein Freund was willst du Verkaufen ?"
+    1011:17 Ladenbesitzer: "Das war doch für uns Beide profitabel."
+
+1013:0 Du stehst vor einer riesigen Kirche - ihr Turm ragt bis weit in den Himmel auf. Du gehst durch den Eingang.
+1013:1 Buntes Licht fällt durch die hohen Glasfenster. Sie sind kunstvoll bemalt.
+1013:2 Plötzlich fällt dir eine Gruppe von Gläubigen auf. Sie stehen vor einem runden, rot leuchtendem Objekt. 
+1013:3 Was genau es ist, kannst du nicht ausmachen. Doch die Hitze die es abgibt spürst du trotzdem.
+1013:4 Die Pilger tragen schwarze Kutten und sind kahl geschoren. Sie bemerken dich und kommen auf dich zu.
+
+1014:0 Du betrittst das Rathaus. Es ist kühl. 
+1014:1 Einige Männer eilen an dir vorbei. Sie tragen Pergamente und sind gut gekleidet - wahrscheinlich Beamte.
+1014:2 Du läufst an einer großen Tafel mit den neuesten Verordnungen vorbei. 
+1014:3 Eine Tür schwingt auf. Heraus tritt ein dicker Mann, der mit seinen zwei Bediensteten spricht. Der Mann strahlt Authorität aus.
+1014:4 Das muss der Kanzler sein! Die Unterhaltung stoppt und er mustert dich und geht auf dich zu.
+
+1015:0 Du bist umgeben von zahlreichen Blumen.
+1015:1 Die Blumen sind farbenfroh und zahlreich. Du erblickst Rosen, Tulpen, Lilien, Sonnenblumen, ...
+1015:2 Um dich herum summen Bienen, von dem Nektar der Blumen angelockt.
+1015:3
+1015:4
+
+newBiome-------------------------------------------------------------------------------------------
+
+200:0 Du bist in der Arktis!
+500:0 Du bist im Schleimsumpf!
+600:0 Du bist in den Bergen!
+700:0 Du bist beim Vulkan!
+900:0 Du bist im Wald!
+1000:0 Du bist in dem kleinen Dorf!
+1100:0 Du bist auf der Wiese!
+1300:0 Du bist im Urwald!
+1400:0 Du bist in der Savanne!
+1500:0 Du bist in der Wüste! 
+
+Arktis---------------------------------------------------------------------------------------------
+
+205:0 Die Risse im Eis werden immer häufiger. Du springst von einer Eisscholle zur nächsten.
+206:0 Hier türmt sich der Schnee meterweit auf. An manchen Stellen blitzt verchromtes Metall auf. 
+207:0 Der Wind stärker und fegt über das Eis. Schneeflocken und Eissplitter wehen dir ins Gesicht.
+209:0 Ein spiegelglatter See durchtrennt die Landschaft. Horizont und Wasser gehen nahtlos in einander über.
+210:0 Polarlichter züngeln über den Himmel und tauchen das Eis in grünes und blaues Licht.
+211:0 Gigantische Eissplitter liegen in alle Richtungen verstreut, mit gewaltiger Kraft durchtrennt und weggeschleudert.
+213:0 Riesige Fußstapfen und eine rote Blutspur ziehen sich durch die Landschaft.
+214:0 Ein mannsgroßes Skelett wird vom Schnee zugeweht. An vielen der Knochen wachsen Eiszapfen. 
+215:0 Donnerndes Brüllen. Ein Eisbär trottet schwerfällig an dir vorbei. Das war knapp!
+
+Schleimsumpf---------------------------------------------------------------------------------------
+
+505:0 Ein gackerndes Lachen schallt durch den Wald. Vor dir steht ein Hexenhaus!
+    505:1 Das Haus ist schief, das Holz morsch und von Moos bewachsen. Ein rötliches Leuchten dringt aus dem Inneren hervor.
+    505:2 Du bückst dich und trittst ein. Grüner Dampf steigt von einem eisernen Kessel auf. Dir wird schummrig.
+    505:3 Eine schwarz gekleidet Frau sitzt gebeugt über alten Büchern. Etwas an ihr lässt dich erschauern. Sprichst du sie an?
+506:0 Ein gigantischer, gespaltener Baumstumpf steht dir im Weg. Er ist schwarz und schwelt noch vor sich hin.
+    506:1 Am Fuß des Stumpfes wachsen silbrige Pilze. Du stellst fest, dass das sonst noch warme Holz hier eisig kalt ist.
+    506:2 Sind diese Pilze wohl essbar?
+507:0 Ein dürrer und dreckiger Mann tritt aus dem Dickicht hervor.
+    507:1 Er zieht eine klapprige Karre hinter sich her, beladen mit allen möglichen Gegenständen.
+    507:2 Das muss einer dieser wandernden Händler sein, von denen du schon gehört hast.
+509:0 Du stolperst über ein braunes Etwas. 
+    509:1 Du guckst genauer hin. Schmutzige Knochen ragen aus einer schleimigen Masse heraus. Und ist das... Kleidung?!
+    509:2 Eine menschlicher Schädel starrt dich an. Voller Entsetzen stellst du fest, dass es sich um eine modernde Leiche handelt!
+510:0 Ein schlammiger See von unbekannter Tiefe erstreckt sich vor dir. 
+    510:1 In der Mitte des Wassers steigen Blasen auf und zerplatzen mit einem lauten PLOP.
+    510:2 Etwas streift die Wasseroberfläche.
+511:0 Unter einem hervorstehenden, moosbewachsenem Felsen erspähst du eine dunkle Öffnung. 
+    511:1 Ein tiefes Summen füllt deine Ohren. Die Dunkelheit, sie ruft nach dir.
+    511:2 Unbemerkt hast du einige Schritte in Richtung Eingang gemacht. Gerade noch kommst du zu Sinnen.
+513:0 Tief, tief unten, verborgen unter zahlreichen Schlammschichten, sticht dir ein hellblaues Leuchten ins Auge.
+    513:1 Erstaunt gehst du auf die Knie und wischt den Schlamm beiseite. Vergeblich.
+    513:2 Der Schlamm ist hier zu dicht, ohne Schaufel wird das nichts.
+514:0 Du bist auf eine kleine Schatzkiste gestoßen! 
+    514:1 Endlich ist das Glück einmal auf deiner Seite!
+    514:2 Du stößt den alten Holzdeckel auf und lässt das funkelnde Gold durch deine Hände gleiten.
+515:0 Vor dir steht eine verlassene Holzhütte.  
+    515:1 Spinnenweben hängen an den Balken, Fledermäuse von der Decke. Hier wohnt niemand mehr.
+    515:2 In der Mitte des Raumes steht ein Tisch. Auf ihm liegt - bedeckt von einer dicken Staubschicht - ein Zettel.
+
+Berge--------------------------------------------------------------------------------------------- UMSCHREIBEN! KLINGT ZU SEHR NACH DER ARKTIS!
+
+600:1 Starker Schneefall bedeckt die Umgebung - und dich gleich mit.
+600:2 Vor dir steht ein Schneemann.
+600:3 Du schlitterst auf einer Eisschicht herum.
+600:4 Ein fallender Eiszapfen spießt dich fast auf. Hoppla!
+600:5 Eine Lawine rollt donnernd an dir vorbei.
+600:6 Tannenbäume! So viele Tannenbäume!
+600:7 Der Wind auf der Bergspitze bläst dich fast um!
+600:8 Du blickst von hoch oben auf ein Wolkenmeer herab.
+600:9 Es ist eisig - dir klappern die Zähne und du zitterst.
+600:10 Ein Adler fliegt über dich hinweg. Ob du wohl auch zu seiner Beute gehörst?
+
+Vulkan--------------------------------------------------------------------------------------------
+
+705:0 Eine dichte Schicht aus Asche bedeckt alles in deine Umgebung.
+    705:1 Du fährst mit der Hand über den Boden. Der Staub ist fein und tiefschwarz.
+    705:2 Ein Windstoß fährt über die Landschaft und wirbelt die Asche auf. Du siehst nichts mehr und fängst an zu husten.
+706:0 Hier strahlt der Boden eine solche Hitze ab, dass dein Wasser anfängt zu kochen.
+    706:1 BLUB, BLUB, BLUB. Unter dir muss ein unterirdischer Lavastrom fließen.
+    706:2 Verzweifelt schlägst du deine Hände vor dein Gesicht um dich vor der glühenden Luft zu beschützen.
+707:0 Eine riesige Echse flitzt am Horizont vorbei. 
+    707:1 Ein markerschütterndes Brüllen dringt aus den Wolken hervor.
+    707:2 Das wird doch kein Drache gewesen sein? 
+709:0 Der Boden wackelt und es rumpelt. 
+    709:1 Wasserdampf steigt zischend auf.
+    709:2 Mit einem Mal explodiert der Boden vor dir und Geysire schleudern kleine Steine und Lava in die Luft. 
+710:0 Der Vulkan nimmt dein gesamtes Sichtfeld ein. 
+    710:1 Der umliegende Boden zittert und vibriert.
+    710:2 Hin und wieder steigen kleine Rauchwolken aus dem Schlund des Berges, hunderte Meter über dir.
+711:0 Du durchquerst Hügel aus tiefschwarzem Obsidian.
+    711:1 Ein solches Material hast du noch nie gesehen. Testweise versuchst du ein kleines Stück Stein herauszuhauen.
+    711:2 Aber nichts funktioniert. Hier brauchst du härtere Werkzeuge.
+713:0 Klirr! Du bist auf verglasten Sand getreten.
+    713:1 Scharfe Zacken ragen aus dem Boden auf. Ein rasche Bewegung und du wirst in Stücke geschnitten.
+    713:2 Das Glas ist unnatürlicher klar. Etwas unvorstellbar heißes muss hier den Boden berührt haben.
+714:0 Was macht diese verrußte Metallplatte hier? Und wieso ist sie noch nicht geschmolzen?
+    714:1 Du wischt mit dem Ärmel über die Platte. Zu deinem Erstaunen lässt sich der Dreck problemlos entfernen.
+    714:2 Du willst das Bruchstück mitnehmen doch... es geht nicht! Das Metall ist unvorstellbar schwer und rührt sich keinen Zentimeter.
+715:0 Erstaunlich! In dieser lebensfeindlichen Welt blüht eine einzelne Pflanze vor dir.
+    715:1 Ein einzelner Tropfen grün inmitten einem Meer aus Feuer. Wie kann sich Leben hier halten?
+    715:2 Vorsichtig berührst du die Pflanze. Energie durchströmt dich und alle Wunden und Schnitte an deinem Körper verschwinden.
+
+Wald----------------------------------------------------------------------------------------------
+
+900:1 Es ist dunkel. Nur vereinzelt dringen Lichtstrahlen durch das dichte Blattwerk.
+900:2 Dichter Nebel schwappt durch den Wald. Es ist feucht und klamm.
+900:3 Ein blinkendes Licht erlischt tief hinter den Bäumen. War das ein Lagerfeuer?
+900:4 Es knistert und knackt. Etwas huscht durch die Büsche.
+900:5 Der Platz hier sieht bequem aus! Du versinkst in einem grünen Bett aus Moos.
+900:6 Du stützt dich an einem knorrigen Baum ab. Du willst dich aufmachen, doch deine Hände kleben am Harz fest.
+900:7 Es kracht und splittert. Ein riesiger Baum rauscht donnernd an dir vorbei und fällt auf Boden. Puh!
+900:8 Tausende Glühwürmchen erhellen den dunklen Wald. Gerade noch rechtzeitig weichst du einem Spinnennetz aus.
+900:9 Du kletterst auf einen Baumwipfel und blickst dich um. Farbenfrohe Bäume wiegen sich im Wind.
+900:10 Ein kleiner Bach rauscht zu deinen Füßen. Du wäscht dich - das erste Mal seit Tagen!
+
+Wiese---------------------------------------------------------------------------------------------
+
+1100:1 Blumen in allen Farben des Regenbogens leuchten dich an.
+1100:2 Ein kleiner grüner Grashüpfer springt auf deine Schulter und mustert dich.
+1100:3 Das war knapp! Fast wärst du in eines der zahlreichen Schlangenlöcher getreten, die sich im Gras verstecken. 
+1100:4 Der Wind schlägt Wellen in ein Meer aus langem Gras.
+1100:5 So viele verschiedene Grüntöne hast du noch nie gesehen!
+1100:6 Auf einige Meter um dich herum ist das Gras zu einem Pfad plattgedrückt. Etwas muss sich hier seinen Weg gebahnt haben.
+1100:7 Die Luft brummt vor Leben. Tausende Insekten summen geschäftig an dir vorbei.
+1100:8 Kleine Seen durchziehen die Landschaft. Ihr Wasser ist spiegelglatt und bewegt sich keinen Zentimeter.
+1100:9 Rose Wolken ziehen über dich hinweg. In ihren Formen meinst du Gesichter, Gestalten und Gegenstände erkennen zu können.
+1100:10 Unzählige Tautropfen glitzern in der Morgensonne wie Diamanten.
+
+Urwald--------------------------------------------------------------------------------------------
+
+1305:0 Ein metallener Klumpen steckt tief im Boden. Seine Oberfläche glänzt blendend. 
+    1305:1 Die Luft summt. Deine Haare stellen sich auf. Schnell gehst du ein paar Schritte zurück.
+    1305:2 Im Inneren der Metallkugel pulsiert etwas und alle Pflanzen in der Umgebung verbrennen zu Asche.
+1306:0 Die Hügelkette vor dir bricht zu einer hohen Kluft weg.
+    1306:1 Große Wassermassen stürzen donnernd über die Kante und werden im Wind zu feinen Tropfen verweht. 
+    1306:2 Der Wassernebel benetzt dein Gesicht und erfrischt dich.
+1307:0 Dutzenden Bäume liegen verbrannt auf dem Boden, zu Kleinholz zersplittert. 
+    1307:1 Auch der Boden weist eine tiefe Furche nach Westen auf.
+    1307:2 Etwas muss hier mit großer Geschwindigkeit durch den Wald gebrochen sein.
+1309:0 Große Streben aus Bambus ragen in den Himmel. Einige Pflanzen weisen Bissspuren auf. 
+    1309:1 Plötzlich kullert ein schwarz-weißer Fellball an dir vorbei.
+    1309:2 Süß! Ein Panda!
+1310:0 Lange Treppen ziehen sich an allen vier Seiten an einem steinernen Tempel empor. 
+    1310:1 Rhythmische Gesänge heben an. Es riecht nach Kupfer.
+    1310:2 Eine zähe, tiefrote Flüssigkeit tropft die Stufen hinunter. 
+1311:0 "Dummkopf", "Dummkopf". Wütend blickst du dich nach einem Menschen um, siehst aber nur einen knallbunten Vogel der auf einem tiefhängenden Ast sitzt.
+    1311:1 Interessiert trittst du näher. "Verstehst du mich?" fragst du. 
+    1311:2 Der Papagei legt den Kopf schief und guckt dich an. "Ja" krächzt er.
+1313:0 FLATSCH! Schleimiger, grün-brauner Schlamm trifft dich ins Gesicht. 
+    1313:1 Eine Gruppe Paviane zeigt dir demonstrativ ihre roten Hintern. Es dämmert dir...
+    1313:2 Du wirfst einen Stein zurück... und wirst mit einer Goldmünze abgeworfen. Zufall?
+1314:0 Es ist unerträglich schwül. Plötzlich öffnet der Himmel seine Schleusen und es fängt an zu Gewittern. 
+    1314:1 Faustgroße Regentropfen schlagen wie Kugeln auf dem Waldboden ein.
+    1314:2 Schnell suchst du Unterschlupf unter einem hervorstehenden Felsen.
+1315:0 Die Farne rascheln und bewegen sich. Es läuft dir kalt den Rücken herunter. 
+    1315:1 Ein tiefes knurren lässt dich erzittern.
+    1315:1 Zwei goldgelbe Augen leuchten inmitten der Schatten und starren dich an.
+
+Savanne-------------------------------------------------------------------------------------------
+
+1400:1 Goldgelbes Gras wird gelegentlich von olivgrünen Büschen unterbrochen.
+1400:2 Die sengende Sonne brennt dir im Nacken. Dein Mund ist ausgetrocknet, deine Lippen springen auf.
+1400:3 Die tiefrote Abendsonne verwandelt alles am Horizont in schwarze Silhouetten.
+1400:4 In der Ferne erspähst du eine Bergkette an deren Fuße die Vegetation wieder aufblüht.
+1400:5 Ein schlammiges Wasserloch zieht deine Aufmerksamkeit auf sich. Ein Krokodil liegt bewegungslos am Ufer und starrt dich hungrig an.
+1400:6 Gewaltige Affenbrotbäume türmen sich vor dir auf. Ihr Umfang ist bestimmt mehr als ein Dutzend deiner Armlängen.
+1400:7 Ein tiefes Brüllen donnert über die Savanne. Ein majestätischer Löwe stolziert vor dir vorbei und schüttelt seine Mähne.
+1400:8 Eine hohe Staubwolke in der Ferne kündigt eine Herde an Gnus an, die durch die Landschaft zieht.
+1400:9 Ein wolkenloser Himmel offenbart eine gewaltige Anzahl an Sternen - und die Milchstrasse.
+1400:10 Ein Gepard jagt dich jetzt seit mehreren Minuten - doch du bist schneller.
+
+Wüste---------------------------------------------------------------------------------------------
+
+1505:0 Ein kleiner Teich, umgeben von grünen Palmen. Du hast eine Oase gefunden!
+    1505:1 Endlich! Du füllst deine Wasservorräte neu auf und machst es dir im Schatten der grünen Palmen gemütlich.
+    1505:2 Deine Augen werden schwer und du gönnst dir eine wohlverdiente Pause.
+1506:0 Der Sand wird flüssig. Unter dir spürst du Bewegung. 
+    1506:1 Du sinkst knietief in den vibrierenden Sand ein, der dich jetzt nicht mehr trägt.
+    1506:2 Ein Sandwurm gleitet unter dir vorbei!
+1507:0 Du kletterst über den Arm einer steinernen Sphinx, die in die Ferne starrt. 
+    1507:1 Ein steinernes Knirschen. Was war das?
+    1507:2 Die Sphinx dreht ihren Kopf und starrt dich direkt an. Solltest du jetzt etwas sagen?
+1509:0 Vor dir stehen simple, flache Häuser, kaum von der Wüste zu unterscheiden.  
+    1509:1 Du wanderst durch den Ort. Die sandsteinernen Häuser sind schon halb von der Wüste verschluckt.
+    1509:2 Hier wohnt seit langem niemand mehr.
+1510:0 Drei gewaltige Pyramiden ragen bis in den Himmel. 
+    1510:1 Jeder ihrer goldgelben Quader muss mehrere Tonnen wiegen.
+    1510:2 Ob hier wohl irgendwo ein geheimer Eingang ist?
+1511:0 Du triffst auf ein sandsteinernes Grabmal. 
+    1511:1 Du legst die Hand auf den Stein. Es ist eiskalt, obwohl die Sonne seit Stunden glüht. 
+    1511:2 Mit einem Mal wird dir übel. Die Hieroglyphen auf dem Grab fangen an zu tanzen und der Himmel verdüstert sich.
+1513:0 Treibsand! Du sinkst bis zur Hüfte ein. 
+    1513:1 Panisch schlägst du um dich, beschleunigst den Vorgang dabei aber nur. Dann fällt es dir wieder ein.
+    1513:2 Ruhig legst du dich auf deinen Rücken und ziehst dich mühsam in Sicherheit.
+1514:0 Autsch, aua, au! Hunderte Kakteen picksen dich in alle Körperteile.
+    1514:1 Eine falsche Bewegung und hunderte nadelgleiche Stacheln durchdringen deine Haut.
+    1514:2 Blöd nur, dass du aufgrund deiner Schmerzen wie ein Wahnsinniger herumspringst... was die Sache nicht besser macht.
+1515:0 Unidentifizierbare Bruchstücke, versehen mit Schriftzügen in einer Sprache die du nicht kennst, liegen im Sand verscharrt.
+    1515:1 Du willst sie aufheben, genauer untersuchen und mitnehmen. Das erste Teil dass du anfasst, verpasst dir einen gewaltigen Stromschlag.
+    1515:2 Vielleicht solltest du die Stücke doch erst einmal in Ruhe lassen, bis du dich vor der Elektrizität schützen kannst.

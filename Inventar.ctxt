@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Inventar
+comment1.params=
+comment1.target=Inventar()
+comment2.params=i
+comment2.target=void\ addItem(Item)
+comment3.params=i
+comment3.target=void\ useItem(Item)
+comment4.params=i
+comment4.target=void\ sellItem(Item)
+comment5.params=i
+comment5.target=void\ removeItem(Item)
+comment6.params=
+comment6.target=ItemList\ getInventar()
+comment7.params=
+comment7.target=ItemList\ getEquipment()
+comment8.params=type
+comment8.target=Item\ getEquipItem(java.lang.String)
+comment9.params=i
+comment9.target=void\ InvUseItem(Item)
+numComments=10

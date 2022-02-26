@@ -1,0 +1,307 @@
+
+Ja: yes
+Ja: yeah
+Ja: jep
+Ja: jo
+Ja: jawoll
+Ja: jawohl
+Ja: ja
+Ja: j
+Ja: y
+
+---------------------------------------------------------------------------------------------------
+
+Nein: no
+Nein: nope
+Nein: ne
+Nein: nein
+Nein: n
+
+---------------------------------------------------------------------------------------------------
+
+Fliehen: fliehen
+Fliehen: flieh
+Fliehen: flee
+Fliehen: fleihen
+
+---------------------------------------------------------------------------------------------------
+
+Nichts: nichts
+Nichts: nix
+Nichts: nichts davon
+Nichts: keines davon
+Nichts: keins
+Nichts: keines
+Nichts: gar nichts
+Nichts: nein
+Nichts: no 
+Nichts: ne
+
+---------------------------------------------------------------------------------------------------
+
+NeueWelt: neu
+NeueWelt: neue
+NeueWelt: neue welt
+NeueWelt: neues
+NeueWelt: new game
+NeueWelt: new
+NeueWelt: neues spiel
+NeueWelt: ein neues
+NeueWelt: ein neues spiel
+NeueWelt: eine neue welt
+
+---------------------------------------------------------------------------------------------------
+
+AlteWelt: alt
+AlteWelt: alte
+AlteWelt: alte welt
+AlteWelt: altes
+AlteWelt: old game
+AlteWelt: old
+AlteWelt: altes spiel
+AlteWelt: ein altes
+AlteWelt: ein altes spiel
+AlteWelt: eine alte welt
+
+---------------------------------------------------------------------------------------------------
+
+umschauen: schau
+umschauen: umschauen
+umschauen: sieh
+umschauen: sehen
+umschauen: umsehen
+umschauen: betrachte
+umschauen: betrachten
+umschauen: look
+umschauen: schaue
+umschauen: schauen
+umschauen: gucken
+umschauen: umgucken
+umschauen: ich schaue mich um 
+umschauen: ich gucke mich um
+umschauen: ich sehe mich um
+
+---------------------------------------------------------------------------------------------------
+
+Speichern: speichern
+Speichern: speicher die welt
+Speichern: save
+Speichern: save the world
+Speichern: speicher
+Speichern: sichern
+Speichern: sicher die welt
+
+---------------------------------------------------------------------------------------------------
+
+stats: show stats
+stats: stats
+stats: ausrüstung
+stats: ausrüstung anzeigen
+stats: ausrüstung zeigen
+stats: inventar
+stats: inventar anzeigen
+stats: inventar zeigen
+stats: rucksack
+stats: rucksack zeigen
+stats: rucksack anzeigen
+
+---------------------------------------------------------------------------------------------------
+
+Benutzen: use
+Benutzen: use items
+Benutzen: use item
+Benutzen: use gegenstand
+Benutzen: use gegenstände
+Benutzen: benutzen
+Benutzen: benutze items
+Benutzen: benutze item
+Benutzen: benutze gegenstand
+Benutzen: benutze gegenstände
+
+---------------------------------------------------------------------------------------------------
+Aktion: act
+Aktion: interagieren
+Aktion: interagiere
+Aktion: sprechen
+Aktion: sprich
+Aktion: mache etwas
+Aktion: mache es
+Aktion: tue etwas
+Aktion: tue es
+Aktion: trete in action 
+Aktion: trete in aktion
+Aktion: mache die aktion
+Aktion: mache die action 
+
+---------------------------------------------------------------------------------------------------
+
+Mission: mission
+Mission: zeige mission
+Mission: aufgabe
+Mission: quest
+Mission: was ist meine mission
+Mission: bro was soll ich jetzt machen
+
+---------------------------------------------------------------------------------------------------
+Ende: end
+Ende: beenden
+Ende: rausgehen
+Ende: exit
+---------------------------------------------------------------------------------------------------
+
+gehenNord: gehe nord
+gehenNord: gehe n
+gehenNord: gehe nach norden
+gehenNord: gehe nach nord
+gehenNord: gehe nach n
+gehenNord: gehe richtung norden
+gehenNord: gehe richtung nord
+gehenNord: gehe richtung n
+gehenNord: laufe nach norden
+gehenNord: laufe nach nord
+gehenNord: laufe nach n
+gehenNord: bewege dich nach norden
+gehenNord: bewege dich nord
+gehenNord: bewege dich n
+gehenNord: n
+gehenNord: nord 
+gehenNord: norden
+gehenNord: north
+gehenNord: go north
+gehenNord: oben
+
+---------------------------------------------------------------------------------------------------
+
+gehenOst: gehe ost
+gehenOst: gehe o
+gehenOst: gehe nach osten
+gehenOst: gehe nach ost
+gehenOst: gehe nach o
+gehenOst: gehe richtung osten
+gehenOst: gehe richtung ost
+gehenOst: gehe richtung o
+gehenOst: laufe nach osten
+gehenOst: laufe nach ost
+gehenOst: laufe nach o
+gehenOst: bewege dich nach osten
+gehenOst: bewege dich ost
+gehenOst: bewege dich o
+gehenOst: o
+gehenOst: ost 
+gehenOst: osten
+gehenOst: e
+gehenOst: east
+gehenOst: go east
+gehenOst: rechts
+
+---------------------------------------------------------------------------------------------------
+
+gehenSüd: gehe süd
+gehenSüd: gehe s
+gehenSüd: gehe nach süden
+gehenSüd: gehe nach süd
+gehenSüd: gehe nach s
+gehenSüd: gehe richtung süden
+gehenSüd: gehe richtung süd
+gehenSüd: gehe richtung s
+gehenSüd: laufe nach süden
+gehenSüd: laufe nach süd
+gehenSüd: laufe nach s
+gehenSüd: bewege dich nach süden
+gehenSüd: bewege dich süd
+gehenSüd: bewege dich s
+gehenSüd: s
+gehenSüd: süd
+gehenSüd: sued
+gehenSüd: sueden 
+gehenSüd: süden
+gehenSüd: south
+gehenSüd: go south
+gehenSüd: unten
+
+---------------------------------------------------------------------------------------------------
+
+gehenWest: gehe west
+gehenWest: gehe w
+gehenWest: gehe nach westen
+gehenWest: gehe nach west
+gehenWest: gehe nach w
+gehenWest: gehe richtung westen
+gehenWest: gehe richtung west
+gehenWest: gehe richtung w
+gehenWest: laufe nach westen
+gehenWest: laufe nach west
+gehenWest: laufe nach w
+gehenWest: bewege dich nach westen
+gehenWest: bewege dich west
+gehenWest: bewege dich w
+gehenWest: w
+gehenWest: west 
+gehenWest: westen
+gehenWest: go west
+gehenWest: links
+
+---------------------------------------------------------------------------------------------------
+Leicht: leicht
+Leicht: leichter
+Leicht: leichten
+Leicht: easy
+Leicht: ez
+Leicht: l
+Leicht: e
+Leicht: liecht
+
+Mittel: mittel
+Mittel: mittelschwer
+Mittel: mittleren
+Mittel: mittelschweren
+Mittel: mittelscherer
+Mittel: m
+Mittel: medium
+Mittel: mitel
+Mittel: mitetl
+
+Schwer: schwer
+Schwer: schweren
+Schwer: schwerer
+Schwer: hard
+Schwer: difficult
+Schwer: s
+Schwer: d
+Schwer: h
+Schwer: shwer
+---------------------------------------------------------------------------------------------------
+Hilfe: help
+Hilfe: ?
+Hilfe: ??
+Hilfe: ???
+Hilfe: keine ahnung
+Hilfe: hilfe
+Hilfe: hä
+Hilfe: was?
+Hilfe: was
+Hilfe: wie?
+Hilfe: wie
+Hilfe: ich brauche hilfe
+Hilfe: was soll ich machen?
+Hilfe: was soll ich machen
+Hilfe: wie komme ich weiter?
+---------------------------------------------------------------------------------------------------
+
+aufheben: hebe auf
+aufheben: aufheben
+aufheben: hebe item auf
+aufheben: get item
+aufheben: get
+aufheben: nehme
+aufheben: nehme item
+
+---------------------------------------------------------------------------------------------------
+Verkaufen: sell
+Verkaufen: verkauf
+Verkaufen: verkaufen
+
+Kaufen: buy
+Kaufen: kauf
+Kaufen: kaufen
+---------------------------------------------------------------------------------------------------

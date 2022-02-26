@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Input
+comment1.params=jt\ k
+comment1.target=void\ getInput(javax.swing.JTextField,\ Konsole)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=
+comment3.target=java.lang.String\ returnInput()
+numComments=4

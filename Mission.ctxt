@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Mission
+comment1.params=n
+comment1.target=Mission(int)
+comment10.params=c
+comment10.target=void\ pickUpItemWithItem(int)
+comment11.params=
+comment11.target=Item\ getItem()
+comment2.params=c
+comment2.target=void\ findPlace(int)
+comment3.params=
+comment3.target=void\ acquireItem()
+comment4.params=
+comment4.target=void\ useItem()
+comment5.params=
+comment5.target=void\ sellItem()
+comment6.params=c
+comment6.target=void\ winFight(int)
+comment7.params=c
+comment7.target=void\ findPlaceUseItem(int)
+comment8.params=c
+comment8.target=void\ pickUpItem(int)
+comment9.params=c
+comment9.target=void\ requiresInput(int)
+numComments=12
